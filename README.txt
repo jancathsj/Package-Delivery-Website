@@ -1,6 +1,6 @@
 ﻿==== Blue Falcon Package Delivery Company Localhost Prototype ====
 
-Contributors: 	* Agacer, Sean Matther
+Contributors: 	* Agacer, Sean Matthew
 		* Gamata, Mark Christian
 		* Nisay, Deiondre Judd
 		* San Juan, Jan Catherine
