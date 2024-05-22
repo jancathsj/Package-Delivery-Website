@@ -49,14 +49,14 @@ Build: alpha build version 4.0
 1. Run XAMPP Control Panel as administrator
 2. On the Control Panel of XAMPP, click on Start next to Apache and MySql
 3. On the same Control Panel, click on Admin next to the Start button of MySql. It should open ‘localhost/phpmyadmin’ on your web browser
-4. Create a new database and name it “phase3”
-5. Import the downloaded file named “phase3.sql” found in the ‘SQL’ folder into the newly created database
+4. Create a new database and name it “PackageDelivery”
+5. Import the downloaded file named “db.sql” found in the ‘SQL’ folder into the newly created database
 6. Transfer the entire ‘PackageDelivery’ folder into Drive:\xampp\htdocs
 7. Lastly, on a web browser, go to ‘localhost/PackageDelivery/homepage.php’ to start.
 
 
 == Notes ==
-* You can either sign up as a customer to use an account, or use pre-existing accounts listed in the accounts table under the ‘phase3’ database 
+* You can either sign up as a customer to use an account, or use pre-existing accounts listed in the accounts table under the ‘packagedelivery’ database 
 * All pre-existing accounts have a password of ‘12345’
 
 
@@ -64,8 +64,10 @@ Build: alpha build version 4.0
 
 * css folder
    * career.css
-   * forms.css.php
    * editRider.css.php
+   * footer.css
+   * forms.css.php
+   * homepage.css
    * login.css.php
    * NavBar.css.php
    * profile.css
@@ -83,7 +85,6 @@ Build: alpha build version 4.0
 * adminaccounts.php
 * career.php
 * createBranch.php
-* createtables.sql
 * deleteaccount.php
 * deleteorder.php
 * editorder.php
@@ -92,8 +93,6 @@ Build: alpha build version 4.0
 * footer.php
 * header.php
 * homepage.php
-* homepage.css
-* index.php
 * login.php
 * myShipping.php
 * myShippingAdmin.php
