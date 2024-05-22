@@ -1,0 +1,271 @@
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	background-color: #D9E4EC;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+
+.clearfix {
+	clear:both;
+	margin-top: 50px;
+ 	background-color:#D9E4EC;
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	padding-bottom: 0px;
+ 	margin-bottom: 0;
+}
+
+.motto {
+	width: 40% ;
+	height:70% ;
+	float: left;
+	padding: 60px 5px 60px 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+
+
+}
+
+
+.motto-title{
+	font-family: "Montserrat", sans-serif;
+	font-size: 500%;
+	background: -webkit-linear-gradient(45deg, #2E8BC0, #80bfff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 4.5%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 99%;
+}
+
+.motto p {
+	margin-top: 18px;
+	font-size: 150%;
+	color: #425582;
+	line-height: 140%;
+	margin-bottom: 0;
+}
+
+.shipbutton {
+	font-family:Arial, Geneva, Helvetica, sans-serif;
+	width: 100%;
+	color: white;
+	background: -webkit-linear-gradient(45deg, #5799db, #80bfff);
+	border: none;
+	outline: none;
+	padding: 4%;
+	font-size: 130%;
+	margin-top: 25px;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+
+.shipbutton:hover {
+	background: -webkit-linear-gradient(45deg, #80bfff, #b3d9ff);
+	color: #425582;
+}
+
+.loginbutton {
+	font-family:Arial, Geneva, Helvetica, sans-serif;
+	width: 48%;
+	color: #425582;
+	background: transparent;
+	border: solid;
+	border-color: #80bfff;
+	border-width: thick;
+	padding-top:3%;
+	padding-bottom:3%;
+	font-size: 130%;
+	margin-top: 25px;
+	border-radius: 20px;
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+
+
+.loginbutton:hover {
+	background: #b3d9ff;
+	color: #425582;
+}
+
+.signupbutton {
+	font-family:Arial, Geneva, Helvetica, sans-serif;
+	width: 48%;
+	color: white;
+	background: -webkit-linear-gradient(45deg, #5799db, #80bfff);
+	border: none;
+	outline: none;
+	padding: 4%;
+	font-size: 130%;
+	margin-top: 25px;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+
+.signupbutton:hover {
+	background: -webkit-linear-gradient(45deg, #80bfff, #b3d9ff);
+	color: #425582;
+}
+
+
+.dman {
+	 border-radius: 25px;
+
+}
+.photo {
+	width: 50%;
+	height:70%;
+	margin-top: 0px;
+	margin-right:25px;
+	margin-left: 5px;
+	padding-top: 60px;
+	float: right;
+	border-radius: 4px;
+
+}
+
+.quality {
+	height:90%;
+	clear:both;
+	background-color: #f2f9fe;
+	margin-top: 0;
+}
+
+
+
+.list {
+	height:auto;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding:15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	display: flex;
+	justify-content: center;
+}
+.list-item {
+	width: 15em ;
+	height:20.5em ;
+	padding:  1%;
+	text-align: center;
+	font-size: 18px;
+	background: -webkit-linear-gradient(45deg, #2E8BC0, #0897e7);
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 2%;
+	padding-bottom: 0;
+	border-radius: 40px;
+	opacity: 0.8;
+	color: #d0e7ff;
+	border: none;
+
+}
+
+img.char {
+	height:35%;
+	margin-top: 2%;
+	filter: invert(100%);
+}
+
+.quickie {
+	display:flex;
+	justify-content: center;
+	background-color: #2E8BC0;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-left: auto;
+	padding-right: auto;
+	list-style-type: none;
+
+}
+.steps {
+	height: 90%;
+	background-color: #2E8BC0;
+}
+
+li.step {
+	width:25% ;
+	height: 24em;
+	background-color: #f2f9fe;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 2%;
+
+}
+
+
+img.step-img{
+	height:10em;
+}
+
+
+h2 {
+	color: white;
+	font-family: "Roboto", sans-serif;
+
+}
+
+h2.number {
+	color:  #0897e7;
+	font-size: 50px;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+
+h2.step-title {
+	color:  #2E8BC0;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+}
+
+h1.promotion1{
+	color:  #b3d9ff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 280%;
+	background: #0897e7;
+	margin-top: 0;
+	padding: 2%;
+}
+
+h1.promotion0{
+	color:  #2E8BC0;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	font-size: 300%;
+}
+
+
+
+hr.mid {
+	clear:both;
+}
+
+
+.char {
+	padding: 3px;
+	object-fit: contain
+	width:;
+	height: ;
+}
+
+
+
+</style>

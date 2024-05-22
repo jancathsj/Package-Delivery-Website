@@ -1,0 +1,151 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+  
+
+  body {
+  background: #D9E4EC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #D9E4EC, #B7CFDC);
+  background: -moz-linear-gradient(right, #D9E4EC, #B7CFDC);
+  background: -o-linear-gradient(right, #D9E4EC, #B7CFDC);
+  background: linear-gradient(to left, #D9E4EC, #B7CFDC);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+h1{
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding: 10px;
+          text-align: center;
+
+  }
+
+  h3{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  table
+        { margin-top: 15px;
+          border-style:solid;
+          border-width:2px;
+          border-color:darkcyan;
+          text-align: center;
+          margin-left: 10%;
+          margin-right: 10%;
+       }
+       th, td {
+      padding: 5px;
+      width:2%;
+    }
+    #addbutton{
+      margin-top: 15px;
+          border-style:solid;
+          border-width:2px;
+          border-color:darkcyan;
+          text-align: center;
+          margin-left: 45%;
+          margin-right: 45%;
+    }
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:#338BA8 ;
+  width: 13%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  width: 13%;
+  font-weight: bold; 
+  background: #43A6C6;
+
+  padding: 10px;
+  color: white;
+}
+
+.track {
+  border: 5px solid white;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 80%;
+    background-color: #67B7D1;
+}
+
+.track td, .track th {
+    text-align: center;
+    padding: 2%;
+}
+
+.track td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 15px;
+}
+
+.track th {
+    color: #ffffff;
+    background: #338BA8;
+}
+
+
+.track th:nth-child(odd) {
+    color: #ffffff;
+    background: #67B7D1;
+}
+
+.track tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.myTrack{
+    position: relative;
+  z-index: 1;
+  background: #8AC7DB;
+  max-width: 660px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#mySubmit{
+    width: 20%;
+    font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:#338BA8 ;
+  border: 0;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+#mySubmit:hover{
+  width: 20%;
+  font-weight: bold; 
+  background: #43A6C6;
+  color: white;
+}
+

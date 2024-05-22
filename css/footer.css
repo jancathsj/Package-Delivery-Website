@@ -1,0 +1,35 @@
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+footer {
+	background-color: #D9E4EC;
+	font-family: "Roboto", sans-serif;
+	align-items: center;
+	background: #2E8BC0;
+	margin-left: 10%;
+}
+
+.contact {
+	height: 10%;
+	float:left;
+	font-size: 24px;
+	padding: 1%;
+	
+}
+
+.contactus {
+	font-size: 50px;
+ 	font-weight: bold;
+	color:#1E90FF;
+}
+
+.foot{
+	clear:both;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top: 1px solid #2E8BC0;
+	padding-bottom: 5%;
+}
+</style>
